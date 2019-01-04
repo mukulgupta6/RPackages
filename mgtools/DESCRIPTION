@@ -1,0 +1,17 @@
+Package: mgtools
+Type: Package
+Title: Functions for automation
+Version: 1.0.8
+Author: Mukul Gupta
+Maintainer: Mukul Gupta <informukul@gmail.com>
+Description: A list of most commonly used functions for automation in analytics. It includes functions to solve for connecting to different DBs, triggering queries to Analytics playground and sending emails to users.
+License: Proprietary
+Encoding: UTF-8
+LazyData: true
+Imports:
+	svDialogs,
+	RJDBC,
+	readr,
+	mailR,
+	tcltk
+RoxygenNote: 6.0.1.9000
